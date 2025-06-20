@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(#f3f3f3, #dcdcdc);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  background-color: #004d00;
+  color: white;
+  padding: 20px;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.logo {
+  height: 60px;
+}
+
+.title-text h1,
+.title-text p {
+  margin: 0;
+}
+
+nav {
+  background-color: #006600;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.main-photo {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery-img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.lyrics {
+  font-style: italic;
+  text-align: center;
+  color: #004d00;
+  margin: 30px auto;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.official-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.official-button a {
+  background-color: #006600;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.official-button a:hover {
+  background-color: #004d00;
+}
+
+footer {
+  background-color: #004d00;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
